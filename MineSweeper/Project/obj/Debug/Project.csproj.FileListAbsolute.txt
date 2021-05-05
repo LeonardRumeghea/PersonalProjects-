@@ -1,0 +1,64 @@
+D:\12A\C#\Fisa26\Project\Project\bin\Debug\Project.exe.config
+D:\12A\C#\Fisa26\Project\Project\bin\Debug\Project.exe
+D:\12A\C#\Fisa26\Project\Project\bin\Debug\Project.pdb
+D:\12A\C#\Fisa26\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\12A\C#\Fisa26\Project\Project\obj\Debug\Project.Form1.resources
+D:\12A\C#\Fisa26\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\12A\C#\Fisa26\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+D:\12A\C#\Fisa26\Project\Project\obj\Debug\Project.exe
+D:\12A\C#\Fisa26\Project\Project\obj\Debug\Project.pdb
+E:\Project\Project\bin\Debug\Project.exe.config
+E:\Project\Project\bin\Debug\Project.exe
+E:\Project\Project\bin\Debug\Project.pdb
+E:\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+E:\Project\Project\obj\Debug\Project.Properties.Resources.resources
+E:\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+E:\Project\Project\obj\Debug\Project.exe
+E:\Project\Project\obj\Debug\Project.pdb
+E:\Project\Project\obj\Debug\Project.MessageBoxForm.resources
+E:\Project\Project\obj\Debug\Project.Game.resources
+G:\MineSweeper\Project\bin\Debug\Project.exe.config
+G:\MineSweeper\Project\obj\Debug\Project.exe
+G:\MineSweeper\Project\obj\Debug\Project.pdb
+G:\MineSweeper\Project\bin\Debug\Project.exe
+G:\MineSweeper\Project\bin\Debug\Project.pdb
+G:\MineSweeper\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+G:\MineSweeper\Project\obj\Debug\Project.Game.resources
+G:\MineSweeper\Project\obj\Debug\Project.MessageBoxForm.resources
+G:\MineSweeper\Project\obj\Debug\Project.Properties.Resources.resources
+G:\MineSweeper\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+E:\MineSweeper\Project\bin\Debug\Project.exe.config
+E:\MineSweeper\Project\bin\Debug\Project.exe
+E:\MineSweeper\Project\bin\Debug\Project.pdb
+E:\MineSweeper\Project\obj\Debug\Project.csprojAssemblyReference.cache
+E:\MineSweeper\Project\obj\Debug\Project.Game.resources
+E:\MineSweeper\Project\obj\Debug\Project.MessageBoxForm.resources
+E:\MineSweeper\Project\obj\Debug\Project.Properties.Resources.resources
+E:\MineSweeper\Project\obj\Debug\Project.csproj.GenerateResource.cache
+E:\MineSweeper\Project\obj\Debug\Project.exe
+E:\MineSweeper\Project\obj\Debug\Project.pdb
+E:\MineSweeper\Project\obj\Debug\Project.WinForm.resources
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\bin\Debug\Project.exe.config
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\bin\Debug\Project.exe
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\bin\Debug\Project.pdb
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.csprojAssemblyReference.cache
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.Game.resources
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.MessageBoxForm.resources
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.WinForm.resources
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.exe
+C:\Users\Leonard\Documents\Informatica\My Projects\MineSweeper\MineSweeper\Project\obj\Debug\Project.pdb
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\bin\Debug\Project.exe.config
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\bin\Debug\Project.exe
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\bin\Debug\Project.pdb
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.csprojAssemblyReference.cache
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.Game.resources
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.MessageBoxForm.resources
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.WinForm.resources
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.exe
+C:\Users\Leonard\Desktop\GameHub\Games\MineSweeper\MineSweeper\Project\obj\Debug\Project.pdb

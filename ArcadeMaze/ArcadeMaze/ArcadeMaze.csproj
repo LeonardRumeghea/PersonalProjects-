@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CEB68FD6-BBC3-41E0-A0DE-B9E5C18FB7B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ArcadeMaze</RootNamespace>
+    <AssemblyName>ArcadeMaze</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Game_Over_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Box.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Help.Designer.cs">
+      <DependentUpon>Form_Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Time.cs" />
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Help.resx">
+      <DependentUpon>Form_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box_Block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box_End.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box_Null.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box_Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leave_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelsList_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayAgain_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuitGame_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resune_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skip_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundsOff_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundsOn_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundsOn.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_Gray %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_Gray %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20_Gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="arcade-machine.ico" />
+    <Content Include="ArcadeMaze_Icon.ico" />
+    <Content Include="Box_Start.ico" />
+    <Content Include="gamer.ico" />
+    <Content Include="Game_Over_Icon.ico" />
+    <Content Include="Help_Ico.ico" />
+    <Content Include="maze_38213 %283%29.ico" />
+    <None Include="Resources\Click.wav" />
+    <None Include="Resources\Block.wav" />
+    <None Include="Resources\Win.wav" />
+    <None Include="Resources\Move.wav" />
+    <None Include="Resources\Data_Level.txt" />
+    <None Include="Resources\1_Gray.png" />
+    <None Include="Resources\Help_Icon.png" />
+    <None Include="Resources\Exit_Icon.png" />
+    <None Include="Resources\Help_Icon1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
